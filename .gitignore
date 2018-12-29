@@ -1,8 +1,11 @@
 node_modules/
+
+#ignore the entire frontend
 frontend/*
 frontend/**/*
-!frontend/public
-!frontend/public/**
+#except the dist folder
+!frontend/dist
+!frontend/dist/**
 
 public/images/**/*
 !public/images/*jpg

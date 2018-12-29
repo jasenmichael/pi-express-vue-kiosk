@@ -23,7 +23,8 @@ consola.ready({
 
 // routes
 // serve public folder, this is where we will serve the static html from our frontend/dist
-app.use('/', express.static('public'));
+app.use('/', express.static('frontend/dist'));
+app.use('/images', express.static('public/images'));
 
 // images api, will list all image files in the public/images directory
 app.get('/api/images', cors(), (req,res) => {

@@ -1,0 +1,21 @@
+{
+  "name": "pi-express-vue-kiosk",
+  "version": "1.0.0",
+  "description": "app.js frontend/   src/     dist/  ==> cp -rf ./* ../../../public public/  <== dist",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js 3000",
+    "start": "node app.js"
+  },
+  "author": "jasenmichael",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "consola": "^2.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  }
+}

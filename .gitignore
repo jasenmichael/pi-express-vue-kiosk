@@ -1,2 +1,8 @@
+node_modules/
 frontend/*
-!frontend/.gitkeep
+frontend/**/*
+!frontend/public
+!frontend/public/**
+
+public/images/**/*
+# public/images

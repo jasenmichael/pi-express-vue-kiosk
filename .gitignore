@@ -5,4 +5,4 @@ frontend/**/*
 !frontend/public/**
 
 public/images/**/*
-# public/images
+!public/images/*jpg

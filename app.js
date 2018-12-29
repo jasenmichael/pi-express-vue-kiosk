@@ -1,5 +1,5 @@
 const host = process.env.HOST || '0.0.0.0'
-const port = process.argv[2] || 80
+const port = process.argv[2] || 8080
 
 const fs = require('fs')
 const path = require('path')

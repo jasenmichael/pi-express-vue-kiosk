@@ -1,7 +1,7 @@
 {
   "name": "pi-express-vue-kiosk",
   "version": "1.0.0",
-  "description": "app.js frontend/   src/     dist/  ==> cp -rf ./* ../../../public public/  <== dist",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js 3000",
